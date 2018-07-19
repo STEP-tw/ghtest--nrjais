@@ -1,0 +1,24 @@
+{
+  "name": "ghtest--nrjais",
+  "version": "1.0.0",
+  "description": "",
+  "main": "report.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/STEP-tw/ghtest--nrjais.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/STEP-tw/ghtest--nrjais/issues"
+  },
+  "homepage": "https://github.com/STEP-tw/ghtest--nrjais#readme",
+  "dependencies": {
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
