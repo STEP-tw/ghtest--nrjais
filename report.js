@@ -5,7 +5,7 @@ const username = process.argv.pop();
 const gitApi = "https://api.github.com"
 
 var options = {
-  uri: `https://api.github.com/users/${username}/repos`,
+  uri: `${gitApi}/users/${username}/repos`,
   //Insert your git access token here
   // qs: {
   //   access_token: 'xxxxx xxxxx' 
@@ -18,6 +18,7 @@ var options = {
 
 request(options)
   .then((repos) => {
+    console.log(`${username} has ${repos.length} repositories\n`.toUpperCase());
     repos.forEach(repo => {
       console.log(repo.name);
     });
